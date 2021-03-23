@@ -4,5 +4,6 @@ with open("digits.txt", 'w') as f_obj:
     digits = input('Введите числа через пробел: ')
     f_obj.write(digits)
     numbers = map(int, digits.split())
-    print(sum(numbers))
+    f_obj.write(str(numbers))
+ print(sum(numbers))
 
