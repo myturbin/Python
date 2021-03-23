@@ -1,0 +1,3 @@
+Ivan Ivanov 300000
+Petr Petrov 15000
+Sidor Sidorov 15000
