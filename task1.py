@@ -4,10 +4,9 @@
 
 import sys
 
-hours, hour_rate, bonus = sys.argv[1:]
-
 
 def zp_cals():
+    hours, hour_rate, bonus = sys.argv[1:]
     return print((hours * hour_rate) + bonus)
 
 
